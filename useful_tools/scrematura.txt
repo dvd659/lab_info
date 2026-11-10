@@ -1,0 +1,22 @@
+//scrematura dei voti non validi
+
+for(int i=0; i<num; i++){
+        if(array[i]<18 || array[i]>31){
+            array[i] = array[num -1];
+            num--;
+            i--;
+        }
+    }
+
+int scrematura(int[], int);
+
+int scrematura(int array[], int num){
+    for(int i=0; i<num; i++){
+        if(array[i]<18 || array[i]>31){
+            array[i] = array[num -1];
+            num--;
+            i--;
+        }
+    }
+    return ndati;
+}
